@@ -94,6 +94,8 @@ h1, h2, h3, h4, h5 {
 	
 } */
 
+
+
 .leftJumbo {
 	/* display: inline-block; */
 	height: 400px;
@@ -101,9 +103,9 @@ h1, h2, h3, h4, h5 {
 	text-align: center;
 	font-size: 70px;
 	
-	
-	
 }
+
+
 
 .rightJumbo {
 	
@@ -112,11 +114,24 @@ h1, h2, h3, h4, h5 {
 	/* float: right; */
 }
 
+@media(max-width:800px){
+    .rightJumbo{
+        display:none;
+    }
+}
+
 .jumbo {
 	display:flex;
 	height: 500px;
 	padding-top: 50px;
 	border-bottom: 1.5px solid black;
+}
+
+@media(max-width:800px){
+    .jumbo{
+        justify-content: center;
+        align-items:center;
+    }
 }
 	
 button {
