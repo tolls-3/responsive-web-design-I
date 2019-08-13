@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 .container {
-	width: 800px;
+	width:700px;
 	padding: 50px;
 	/* align-content: center; */
 	margin:0 auto;
@@ -89,17 +89,19 @@ h1, h2, h3, h4, h5 {
 }
 
 .nav {
+    /* border:2px solid red; */
 	display: flex;
 	padding: 5px;
 	color: gray;
-	word-spacing: 35px;
+	word-spacing: 15px;
 	padding-bottom: 30px;
-	font-size: 14px; 
+    font-size: 14px; 
+    text-decoration: none;
 
 }
 
  .logoSection {
-
+    max-width: 100%;
     margin-bottom: 20px;
 	
 } 
@@ -118,7 +120,7 @@ h1, h2, h3, h4, h5 {
 
 
 .rightJumbo {
-	
+	max-width: 100%;
 	height: 400px;
 	border: 2px, solid, black;
 	/* float: right; */
@@ -175,7 +177,7 @@ h2 {
 }
 
 .middle-img{
-	width:676px;
+	max-width: 100%;
 }
 .topLeft {
 	/* display: inline-block; */
